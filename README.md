@@ -36,7 +36,7 @@ The dataset consists of 25 variables, including:
 4. **Model Evaluation:** Evaluate the model's performance using appropriate metrics such as accuracy, precision, recall, F1-score, and ROC-AUC on the testing data.
 
 ## Model Deployment
-1. **Model Serialization:** Serialize the trained model into a pickle file (`LogR_Model.pkl`) for future use.
+1. **Model Serialization:** Serialize the trained model into a pickle file (`model.pkl`) for future use.
 2. **Streamlit Web App:** Create a Streamlit web app that loads the model and provides a user interface for predicting credit card default.
 
 ## Streamlit Web App
@@ -56,9 +56,59 @@ The project aims to assist financial institutions in assessing the creditworthin
 2. Gather more data to further enhance the model's performance.
 3. Continuously update and refine the model to adapt to changing trends and client behaviors in credit card payments.
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/ayushbhavsar21/CreditCard-Default-Prediction.git
+```
+
+Go to the project directory
+
+```bash
+  cd .\CreditCard-Default-Prediction\
+```
+
+Create and Activate Virtual Environment
+
+```bash
+  python -m venv myenv
+  myenv\Scripts\activate
+```
+
+Install dependencies
+
+```bash
+  pip install -r requirements.txt
+```
+
+Start the Streamlit server
+
+```bash
+  streamlit run main.py
+```
+
+
+
+## Tech Stacks
+   - Python 
+   - Streamlit
+   - Pandas
+   - Numpy
+   - Pickle
+   - Matplotlib
+   - Seaborn
+   - Sklearn
+   - Jupyter notebook
+
 ## References
    - Streamlit: https://docs.streamlit.io/
    - Python: https://www.python.org/
    - Pandas: https://pandas.pydata.org/
    - Scikit-Learn: https://scikit-learn.org/
    - Kaggle Dataset: https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset
+
+## Authors
+
+- [@ayushbhavsar21](https://github.com/ayushbhavsar21)
