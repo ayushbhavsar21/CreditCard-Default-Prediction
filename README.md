@@ -1,13 +1,13 @@
 # Credit-Card-Default-Prediction
-https://creditcardprediction.onrender.com
-
-https://credit-card-default-prediction-komd8pmhucxqyvhpbwmxb6.streamlit.app/
+Deployed App: https://creditcardprediction.streamlit.app/
 
 ## Project Overview
-This report provides a comprehensive overview of the Credit Card Default Prediction project. The objective of this project is to build a machine learning model to predict whether a credit card client in Taiwan will default on their payment next month based on various features.
+This report provides a comprehensive overview of the Credit Card Default Prediction project. The objective of this project is to build a machine learning model to predict whether a credit card client will default on their payment next month based on various features.
 
 ### Dataset Information
 The dataset used in this project contains information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005.
+
+Dataset link: https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset
 
 #### Data Features
 The dataset consists of 25 variables, including:
@@ -41,7 +41,7 @@ The dataset consists of 25 variables, including:
 
 ## Streamlit Web App
 1. **User Interface:** Create a user-friendly interface with input fields for users to enter their information.
-2. **Model Loading:** Load the trained model (`LogR_Model.pkl`) within the Streamlit app.
+2. **Model Loading:** Load the trained model (`model.pkl`) within the Streamlit app.
 3. **User Input Processing:** Accept user inputs, preprocess them, and feed them into the model for prediction.
 4. **Prediction:** Display the prediction result (default or non-default) to the user.
 5. **Feedback:** Allow users to interact with the app, provide feedback, and make predictions based on their inputs.
@@ -61,3 +61,4 @@ The project aims to assist financial institutions in assessing the creditworthin
    - Python: https://www.python.org/
    - Pandas: https://pandas.pydata.org/
    - Scikit-Learn: https://scikit-learn.org/
+   - Kaggle Dataset: https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset
